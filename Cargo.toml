@@ -10,7 +10,7 @@ edition = "2021"
 embassy-sync = { version = "0.1.0", path = "../embassy/embassy-sync", features = ["defmt"] }
 embassy-executor = { version = "0.1.0", path = "../embassy/embassy-executor", features = ["defmt", "integrated-timers"] }
 embassy-time = { version = "0.1.0", path = "../embassy/embassy-time", features = ["defmt", "defmt-timestamp-uptime"] }
-embassy-stm32 = { version = "0.1.0", path = "../embassy/embassy-stm32", features = ["defmt", "nightly", "stm32wb55rg", "time-driver-tim2", "exti"] }
+embassy-stm32 = { version = "0.1.0", path = "../embassy/embassy-stm32", features = ["defmt", "nightly", "stm32wb55rg", "time-driver-any", "exti"] }
 
 defmt = "0.3"
 defmt-rtt = "0.4"
